@@ -14,10 +14,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '工具方法',
+        collapsed: true,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '树', link: '/tree' },
+          { text: '类型', link: '/is' }
         ]
       }
     ],
